@@ -1,0 +1,106 @@
+{
+  "title": "𝑀𝑎𝑘𝑘𝑎𝑃𝑎𝑘𝑘𝑎'𝑠 𝑁𝑆𝐹𝑊-𝑊𝑖𝑑𝑔𝑒𝑡𝑠",
+  "description": "𝑀𝑎𝑘𝑘𝑎𝑃𝑎𝑘𝑘𝑎'𝑠 𝑁𝑆𝐹𝑊-𝑊𝑖𝑑𝑔𝑒𝑡𝑠",
+  "icon": "https://raw.githubusercontent.com/MakkaPakka518/FW/refs/heads/main/widgets/tubiao/MakkaPakka.png",
+  "widgets": [
+    {
+      "id": "91porn_int",
+      "title": "91Porn",
+      "description": "91Porn",
+      "requiredVersion": "0.0.2",
+      "version": "0.9.6",
+      "author": "網路",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/nineone.js?token=GHSAT0AAAAAADUD5HC5XJH2QDV42TNS6C5W2MLI2WQ"
+    },
+    {
+      "id": "91porny_int",
+      "title": "91Porny",
+      "description": "91Porny",
+      "requiredVersion": "0.0.2",
+      "version": "0.9.6",
+      "author": "網路",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/nineoney.js?token=GHSAT0AAAAAADUD5HC5XQAWPQIOOQVS3WEA2MLI3IQ"
+    },
+    {
+      "id": "javday_int",
+      "title": "Javday",
+      "description": "網路收集到的模塊",
+      "requiredVersion": "0.0.1",
+      "version": "1.2.0",
+      "author": "Ti",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/day.js?token=GHSAT0AAAAAADUD5HC4XOFU6ZKM5C3Y5WDO2MLI3WA"
+    },
+    {
+      "id": "jable_int",
+      "title": "Jable",
+      "description": "網路收集到的模塊",
+      "requiredVersion": "0.0.2",
+      "version": "1.1.0",
+      "author": "nibiru",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/able.js?token=GHSAT0AAAAAADUD5HC4LV5DXDI7UYPYUHF42MLI4DA"
+    },
+    {
+      "id": "missav_int",
+      "title": "MissAV",
+      "description": "網路收集到的模塊",
+      "requiredVersion": "0.0.2",
+      "version": "2.0.0",
+      "author": "蝴蝶",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/miss.js?token=GHSAT0AAAAAADUD5HC5UM4VQUJS4RW5W7ES2MLI4PQ"
+    },
+    {
+      "id": "Pornhub_int",
+      "title": "Pornhub",
+      "description": "網路收集到的模塊",
+      "requiredVersion": "0.0.1",
+      "version": "1.1.5",
+      "author": "海带",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/phb.js?token=GHSAT0AAAAAADUD5HC4CJ4XCNZDSXVIHRWY2MLI5DQ"
+    },
+    {
+      "id": "xvideos_int",
+      "title": "Xvideos",
+      "description": "網路收集到的模塊",
+      "requiredVersion": "0.0.1",
+      "version": "0.9.6",
+      "author": "海带",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/xv.js?token=GHSAT0AAAAAADUD5HC4GAYBF5B5MOHYH4Q42MLI5QQ"
+    },
+    {
+      "id": "jable_makka_spec_v4",
+      "title": "Jable_ovo",
+      "description": "修复群友jable模块没声音的问题",
+      "requiredVersion": "0.0.2",
+      "version": "1.0.3",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/1.js?token=GHSAT0AAAAAADUD5HC4IXHMDO3XZG5YA7HG2MLI6JQ"
+    },
+    {
+      "id": "javday_pro_final_mak",
+      "title": "JAVDay_ovo",
+      "description": "简易的javday模块",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.2",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/2.js?token=GHSAT0AAAAAADUD5HC55H7ELTVZWCOU44C62MLI6VQ"
+    },
+    {
+      "id": "91porn_makka",
+      "title": "91Porn_ovo",
+      "description": "91Porn 增加关键词搜索功能",
+      "requiredVersion": "0.0.1",
+      "version": "1.0.2",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/3.js?token=GHSAT0AAAAAADUD5HC4EUSGSFPD646O5PTO2MLI66Q"
+    },
+    {
+      "id": "missav_makka_play",
+      "title": "MissAV_ovo",
+      "description": "简易的missav模块",
+      "requiredVersion": "0.0.1",
+      "version": "2.1.1",
+      "author": "𝙈𝙖𝙠𝙠𝙖𝙋𝙖𝙠𝙠𝙖",
+      "url": "https://raw.githubusercontent.com/MakkaPakka518/WFSN/refs/heads/main/widgetsns/4.js?token=GHSAT0AAAAAADUD5HC522VKESWVHFQ55UZ62MLI7GQ"
+    }
+  ]
+}
