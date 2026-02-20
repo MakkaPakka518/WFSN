@@ -1,10 +1,10 @@
 var WidgetMetadata = {
     id: "missav_int",
-    title: "MissAV",
-    description: "網路收集到的模塊",
+    title: "MissAV 已失效",
+    description: "已失效，请删除该模块",
     author: "蝴蝶",
     site: "https://for-ward.vercel.app",
-    version: "2.0.0",
+    version: "2.0.1",
     requiredVersion: "0.0.2",
     detailCacheDuration: 300,
     modules: [
