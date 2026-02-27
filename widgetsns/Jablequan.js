@@ -1,11 +1,11 @@
 //Original Author:nibiru
 WidgetMetadata = {
-  id: "jable",
+  id: "jable_int",
   title: "Jable",
-  description: "\u83b7\u53d6 Jable \u89c6\u9891",
-  author: "\ud835\udcd1\ud835\udcfe\ud835\udcfd\ud835\udcfd\ud835\udcee\ud835\udcfb\ud835\udcef\ud835\udcf5\ud835\udd02",
-  site: "https://for-ward.vercel.app",
-  version: "1.0.9",
+  description: "修复声音&恢复大量分类",
+  author: "nibiru｜MakkaPakka｜蝴蝶",
+  site: "https://widgets-xd.vercel.app",
+  version: "1.3.0",
   requiredVersion: "0.0.2",
   detailCacheDuration: 60,
   modules: [
