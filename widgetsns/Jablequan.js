@@ -1280,12 +1280,19 @@ async function loadDetail(link) {
   const response = await Widget.http.get(link, {
     headers: {
       "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "Referer": "https://jable.tv/"
     },
   });
   
-  const hlsUrl = response.data.match(/var hlsUrl = '(.*?)';/)[1];
+  // 优化了正则匹配，防止报错
+  let hlsUrl = "";
+  const match = response.data.match(/var\s+hlsUrl\s*=\s*['"](.*?)['"]/i);
+  if (match && match[1]) {
+    hlsUrl = match[1];
+  }
+
   if (!hlsUrl) {
-    throw new Error("\u65e0\u6cd5\u83b7\u53d6\u6709\u6548\u7684HLS URL");
+    throw new Error("无法获取有效的播放地址，可能需要代理验证");
   }
   
   const $ = Widget.html.load(response.data);
@@ -1299,20 +1306,15 @@ async function loadDetail(link) {
     id: link,
     type: "detail",
     videoUrl: hlsUrl,
-    mediaType: "movie",
-    releaseDate: videoDuration,
-    playerType: "system",
+    // 👉 核心修复：强制使用 ijk 播放器解决无声问题
+    playerType: "ijk", 
+    // 👉 核心修复：添加防盗链头部
     customHeaders: {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
       "Referer": link,
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    },
+      "Origin": "https://jable.tv"
+    }
   };
-  
-  const sections = await parseHtml(response.data);
-  const items = sections.flatMap((section) => section.childItems);
-  if (items.length > 0) {
-    item.childItems = items;
-  }
   
   return item;
 }
