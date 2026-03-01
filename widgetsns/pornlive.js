@@ -2,7 +2,7 @@ var WidgetMetadata = {
   id: "Bitch",
   title: "Bitch Lives",
   description: "Bitch Lives",
-  author: "Discount Code：VEUS",
+  author: "网络",
   site: "Discount Code：VEUS",
   version: "1.0.0",
   requiredVersion: "0.0.1",
